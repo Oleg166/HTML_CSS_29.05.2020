@@ -1,0 +1,201 @@
+﻿/*Цвет фона немного дымчато-белый*/
+body{
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/*Убирает маркеры списка ссылок в меню*/
+.menu{
+    list-style-type: none;
+    float:right;
+}
+
+/*Стиль ссылок в меню*/
+.menu a{
+	color: red;
+	font-size: 2em;
+	text-decoration-line: none; 
+	font-style: normal;
+
+}
+.menu a:hover{
+    color:green;
+}
+.menu li{
+		display: inline;
+		padding:4px;
+}
+/*Стили подзаголовков на странице каждого товара*/
+h3{
+	color:black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea; 
+}
+
+/*Стиль текста в подзаголовке Краткое описание товара*/
+.short{
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+/*Стиль текста в подзаголовке Характеристики телефона*/
+.properties{
+	list-style-type: lower-greek;
+	font-size: 20px;
+	color: #484399;
+}
+
+/*Стиль текста в подзаголовке Подробное описание товара*/
+.detailed{
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+/*Стиль текста в подзаголовке Внешний вид товара*/
+.appearance{
+	color:#489943;
+	font-size: 17px;
+}
+
+/*Стиль текста в подзаголовке Особенности товара*/
+.features{
+	color: #994343;
+	text-align: center;
+}
+
+/*Стиль полей ввода на странице Контакты*/
+input[type=text], input[type=password], input[type="mail"] {
+	width: 200px;
+	height: 17px;
+	color: purple;
+	font: bold normal 17px sans-serif;
+}
+
+/*Стиль формы обратной связи*/
+textarea{
+	width: 300px;
+	height: 200px;
+	color: purple;
+	font: bold normal 17px sans-serif;	
+}
+
+/*Стиль логотипа*/
+#logo{
+    float:left;
+    margin:5px 0 0 5px;
+}
+/*Стиль поля ввода e-mail при вводе e-mail*/
+input[type=mail]:focus {
+	width: 250px;
+	height: 20px;
+	color: black;
+	font: bold normal 20px sans-serif;
+}
+
+/*Первая буква полей ввода заглавная*/
+input, textarea{
+  text-transform: capitalize;  
+}
+
+/*Стиль таблиц на каждой странице товара каталога */
+.onetable{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.onetable td, .onetable th{
+    border: 1px solid #000;
+}
+
+/*Стиль первой буквы каждого параграфа на каждой странице каталога*/
+.short:first-letter, .properties:first-letter, .detailed:first-letter, .appearance:first-letter, .features:first-letter {
+    color:darkolivegreen;
+    font: bold normal 25px serif;
+}
+
+/*Стиль таблицы на главной странице*/
+.twotable{
+    text-align: center;
+    border-collapse: collapse;
+}
+.twotable td{
+    border: 1px solid #000;
+    width: 40px;
+    height: 20px;
+    
+}
+.twotable th{
+    border: 1px solid #000;
+    width: 40px;
+    height: 40px;
+}
+/*Стиль рамки вокруг изображения товара на каждой странице товара каталога*/
+.product_img{
+    outline: yellow solid 3px;
+    float: left;
+    margin:5px;
+}
+/*Стиль рамки вокруг изображения товара при наведении на это изображение на каждой странице товара каталога*/
+.product_img:hover{
+    outline:none;
+}
+/*Стиль родительского класса container*/
+.container{
+	width:70%;
+	margin:0 auto;
+}
+
+/*Стиль header*/
+#header{
+	height:70px;
+}
+/*Стиль футера*/
+#footer{
+	height:40px;
+	background-color: #599954;
+}
+#footer p{
+	text-align: right;
+	padding: 10px 10px 0 0;
+}
+
+/*Стиль карты*/
+#maps{
+	width: 100%;
+	height: 374px;
+}
+/*Стиль кнопки купить*/
+#sale{
+	width:100px;
+	height: 35px;
+	font-size:25px;
+}
+#sale:hover{
+	background-color: green;
+}
+#sale:active{
+	background-color: red;
+}
+
+/*Отключение обтекания текста картинкой товара*/
+.head_properties{
+	clear:left;
+}
+.products a{
+	font-size: 30px;
+}
+.products{
+	display: inline-block;
+	padding:0 15px 0 15px;
+}
+.products img{
+	width:50px; 
+	height:50px;
+}
